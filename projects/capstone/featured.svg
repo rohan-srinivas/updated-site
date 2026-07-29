@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Oregon pedestrian and cyclist safety analysis</title>
+  <desc id="desc">Abstract map of Oregon with crash points, analytical layers, and a data pipeline</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090b12"/>
+      <stop offset="1" stop-color="#16182a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b7cff"/>
+      <stop offset="1" stop-color="#58d5c9"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1380" cy="180" r="330" fill="#8b7cff" opacity=".10"/>
+  <circle cx="220" cy="760" r="290" fill="#58d5c9" opacity=".08"/>
+  <g transform="translate(980 115)">
+    <path d="M118 40 332 56 356 156 421 205 390 304 423 397 362 504 280 559 188 547 128 489 66 474 44 382 70 307 48 230 82 154Z" fill="#121727" stroke="url(#accent)" stroke-width="8"/>
+    <g fill="#ff7a90" filter="url(#glow)">
+      <circle cx="176" cy="177" r="8"/><circle cx="210" cy="210" r="7"/><circle cx="235" cy="251" r="9"/><circle cx="190" cy="310" r="7"/><circle cx="270" cy="332" r="8"/><circle cx="300" cy="390" r="10"/><circle cx="230" cy="430" r="8"/><circle cx="336" cy="268" r="7"/><circle cx="145" cy="386" r="6"/><circle cx="320" cy="470" r="8"/>
+    </g>
+    <g fill="#58d5c9" opacity=".8"><circle cx="140" cy="238" r="5"/><circle cx="285" cy="180" r="5"/><circle cx="346" cy="350" r="5"/><circle cx="205" cy="480" r="5"/></g>
+  </g>
+  <g fill="#f5f7fb" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <text x="110" y="150" font-size="31" letter-spacing="7" opacity=".65">SPATIAL + PREDICTIVE ANALYSIS</text>
+    <text x="105" y="265" font-size="74" font-weight="700">Oregon Road Safety</text>
+    <text x="108" y="335" font-size="31" opacity=".72">FARS 2015–2024 · roadway · environment · Census tracts</text>
+  </g>
+  <g transform="translate(110 520)" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <g fill="#121727" stroke="#3c435d" stroke-width="2">
+      <rect width="210" height="105" rx="22"/><rect x="250" width="210" height="105" rx="22"/><rect x="500" width="210" height="105" rx="22"/><rect x="750" width="210" height="105" rx="22"/>
+    </g>
+    <g fill="#f5f7fb" font-size="24" text-anchor="middle">
+      <text x="105" y="49">FARS tables</text><text x="105" y="77" font-size="18" opacity=".6">10 annual files</text>
+      <text x="355" y="49">Relational joins</text><text x="355" y="77" font-size="18" opacity=".6">victim + crash + vehicle</text>
+      <text x="605" y="49">Census enrichment</text><text x="605" y="77" font-size="18" opacity=".6">tract-level context</text>
+      <text x="855" y="49">Analysis</text><text x="855" y="77" font-size="18" opacity=".6">spatial + statistical + ML</text>
+    </g>
+    <g stroke="url(#accent)" stroke-width="7" stroke-linecap="round">
+      <path d="M218 53h23"/><path d="M468 53h23"/><path d="M718 53h23"/>
+    </g>
+  </g>
+  <text x="112" y="760" fill="#a9afbf" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25">1,049 victims · 490 unique crashes · statewide Oregon coverage</text>
+</svg>
