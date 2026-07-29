@@ -1,0 +1,19 @@
+---
+title: "Resume"
+subtitle: "A downloadable snapshot of my education, experience, and skills."
+page-layout: full
+---
+
+::: {.resume-hero .reveal}
+<p class="eyebrow">RESUME</p>
+
+# The concise version.
+
+The PDF remains the source of truth for now. A fuller web resume can be added later without changing the download link.
+
+[Download resume](assets/resume-da-v4.pdf){.btn .btn-primary .btn-lg}
+:::
+
+::: {.pdf-shell .reveal}
+<iframe src="assets/resume-da-v4.pdf" width="100%" height="900px" title="Rohan Srinivasa Babu resume"></iframe>
+:::

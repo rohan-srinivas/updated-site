@@ -1,0 +1,101 @@
+---
+title: "Rohan Srinivasa Babu"
+page-layout: full
+---
+
+::: {.hero-shell}
+::: {.hero-glow}
+:::
+
+::: {.hero-grid}
+::: {.hero-copy .reveal}
+<p class="eyebrow">BUSINESS × DATA × STRATEGY</p>
+
+# I turn complex questions into decisions people can act on.
+
+<p class="hero-lede">M.B.A. (Finance) and M.S. Data Science graduate combining strategic thinking, analytics, and technical execution.</p>
+
+::: {.hero-actions}
+[Explore my work](projects.qmd){.btn .btn-primary .btn-lg}
+[Download resume](assets/resume-da-v4.pdf){.btn .btn-outline-light .btn-lg}
+:::
+
+::: {.hero-links}
+[GitHub](https://github.com/rohan-srinivas) · [LinkedIn](https://www.linkedin.com/in/rohan-srinivasa-babu/) · [Email](mailto:rohansrinivas03@gmail.com)
+:::
+:::
+
+::: {.hero-portrait-wrap .reveal}
+![Rohan Srinivasa Babu](images/profile-pic.jpg){.hero-portrait fig-alt="Portrait of Rohan Srinivasa Babu"}
+:::
+:::
+:::
+
+::: {.section-shell .reveal}
+<p class="section-kicker">HOW I WORK</p>
+
+## One profile, three connected strengths.
+
+::: {.feature-grid}
+::: {.feature-card}
+### Strategy
+I frame ambiguous business problems, identify the decision that matters, and connect analysis to action.
+:::
+
+::: {.feature-card}
+### Analytics
+I use statistical reasoning, visualization, and machine learning to find patterns that can be explained and defended.
+:::
+
+::: {.feature-card}
+### Engineering
+I build reproducible data workflows so useful analysis does not depend on one person or one notebook.
+:::
+:::
+:::
+
+::: {.section-shell .reveal}
+<p class="section-kicker">SELECTED WORK</p>
+
+## Projects with a clear problem, system, and outcome.
+
+::: {.work-grid}
+::: {.work-card .work-card-featured}
+<p class="card-label">CAPSTONE · SPATIAL ANALYSIS</p>
+
+### Fatal Pedestrian and Cyclist Crash Risk Factors in Oregon
+
+Ten years of FARS crash records integrated with roadway, environmental, and Census tract data to help transportation planners identify high-risk conditions.
+
+[View project →](projects/capstone/index.qmd)
+:::
+
+::: {.work-card}
+<p class="card-label">DATA ENGINEERING · TEAM PROJECT</p>
+
+### Prague Metro Data Platform
+
+A developing portfolio case study on a multi-source pipeline using orchestration, cloud storage, transformation, and graph data.
+
+[View project →](projects/prague-metro/index.qmd)
+:::
+:::
+:::
+
+::: {.section-shell .experience-preview .reveal}
+<p class="section-kicker">EXPERIENCE</p>
+
+## Business context belongs beside technical work.
+
+I plan to present employer-specific projects within each role, where the business problem, my contribution, and the result can be understood together.
+
+[See experience →](experience.qmd){.text-link}
+:::
+
+::: {.closing-shell .reveal}
+## Building at the intersection of business judgment and technical depth.
+
+<p>Currently refining this portfolio as I complete my capstone work and prepare for business, analytics, and data-focused opportunities.</p>
+
+[Start a conversation](mailto:rohansrinivas03@gmail.com){.btn .btn-primary .btn-lg}
+:::

@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/
+    - images/
+    - scripts/
+    - projects/
+
+execute:
+  freeze: auto
+
+website:
+  title: "Rohan Srinivasa Babu"
+  description: "Business, strategy, analytics, and data engineering portfolio"
+  site-url: https://rohan-srinivas.github.io/updated-site/
+  open-graph: true
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Rohan
+    right:
+      - href: experience.qmd
+        text: Experience
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: About
+      - href: resume.qmd
+        text: Resume
+      - icon: github
+        href: https://github.com/rohan-srinivas
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rohan-srinivasa-babu/
+        aria-label: LinkedIn
+  page-footer:
+    left: "© 2026 Rohan Srinivasa Babu"
+    right: "Built with Quarto · Hosted on GitHub Pages"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    smooth-scroll: true
+    include-after-body: includes/site-scripts.html

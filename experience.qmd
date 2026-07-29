@@ -1,0 +1,74 @@
+---
+title: "Experience"
+subtitle: "The business context, the work, and the value created."
+page-layout: full
+---
+
+::: {.page-intro .reveal}
+<p class="eyebrow">EXPERIENCE</p>
+
+# Work that connects analysis to real operating decisions.
+
+This page is structured to keep employer-specific projects under the roles where they make the most sense. The detailed stories can be added over time without turning the Projects page into a list of disconnected artifacts.
+:::
+
+::: {.timeline-shell}
+::: {.timeline-item .reveal}
+::: {.timeline-marker}
+:::
+
+::: {.timeline-content}
+<p class="timeline-date">MAY 2025 — MAY 2026</p>
+
+## Market & Strategy Consultant
+
+### West Salem Machinery · Salem, Oregon
+
+I worked across market research, competitive strategy, financial analysis, and applied AI initiatives in an industrial manufacturing environment.
+
+::: {.mini-case-grid}
+::: {.mini-case}
+#### AI-assisted grinder sizing
+
+[Add the business problem, your role, the approach, and a defensible outcome.]
+:::
+
+::: {.mini-case}
+#### Competitive landscape research
+
+[Add the market question, analysis performed, and how leadership used the work.]
+:::
+
+::: {.mini-case}
+#### Strategic and financial analysis
+
+[Add selected work such as electrification incentives, equipment markets, or operating analysis.]
+:::
+:::
+:::
+:::
+
+::: {.timeline-item .reveal}
+::: {.timeline-marker}
+:::
+
+::: {.timeline-content}
+<p class="timeline-date">2024 — 2026</p>
+
+## Graduate Work
+
+### Willamette University · M.B.A. (Finance) + M.S. Data Science
+
+My graduate work brought together business strategy, finance, statistics, machine learning, data engineering, and communication.
+
+- [Add leadership, academic distinctions, teaching, or major applied work.]
+- [Add the areas of study most relevant to the roles you are pursuing.]
+:::
+:::
+:::
+
+::: {.closing-shell .reveal}
+## The next chapter
+
+[Add a focused statement about the types of roles and problems you want to pursue without trying to cover every possible direction.]
+:::

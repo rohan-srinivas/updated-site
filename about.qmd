@@ -1,0 +1,52 @@
+---
+title: "About"
+page-layout: full
+---
+
+::: {.about-hero}
+::: {.about-image-wrap .reveal}
+![Rohan Srinivasa Babu](images/profile-pic.jpg){.about-portrait fig-alt="Portrait of Rohan Srinivasa Babu"}
+:::
+
+::: {.about-copy .reveal}
+<p class="eyebrow">ABOUT</p>
+
+# Hi, I'm Rohan.
+
+The home page is the ten-second version. This is the longer story — still in progress, and intentionally left with room for me to fill in my own voice.
+
+I came to data science from **[your path: a major, a job, or a question that would not leave you alone]**. What keeps me here is **[the part of the work you genuinely enjoy]**.
+
+At Willamette, my work has crossed business strategy, finance, statistical modeling, machine learning, and data engineering. My projects are where those perspectives come together.
+:::
+:::
+
+::: {.section-shell .reveal}
+## Beyond the terminal
+
+::: {.feature-grid}
+::: {.feature-card}
+### Outside work
+[Something human — a hobby, place, sport, or cause.]
+:::
+
+::: {.feature-card}
+### Currently exploring
+[What you are reading, learning, or building.]
+:::
+
+::: {.feature-card}
+### Looking ahead
+[What you want to be doing in two years.]
+:::
+:::
+:::
+
+::: {.closing-shell .reveal}
+## Get in touch
+
+I'm happy to talk about data work, business problems, collaborations, or roles.
+
+[Email me](mailto:rohansrinivas03@gmail.com){.btn .btn-primary}
+[LinkedIn](https://www.linkedin.com/in/rohan-srinivasa-babu/){.btn .btn-outline-light}
+:::
