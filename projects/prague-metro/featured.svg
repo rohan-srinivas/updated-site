@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Prague Metro data platform</title>
+  <desc id="desc">Abstract dark diagram of connected data systems and a metro line</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#151d38"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74c0fc"/>
+      <stop offset="0.5" stop-color="#b197fc"/>
+      <stop offset="1" stop-color="#63e6be"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="250" cy="220" r="230" fill="#5f3dc4" opacity=".18"/>
+  <circle cx="1370" cy="690" r="280" fill="#087f5b" opacity=".15"/>
+  <path d="M150 540 C370 360 520 670 760 470 S1110 300 1450 470" fill="none" stroke="url(#line)" stroke-width="18" stroke-linecap="round" filter="url(#glow)"/>
+  <g fill="#0b1020" stroke="#d0ebff" stroke-width="8">
+    <circle cx="180" cy="520" r="28"/><circle cx="410" cy="475" r="28"/><circle cx="650" cy="540" r="28"/><circle cx="890" cy="400" r="28"/><circle cx="1130" cy="370" r="28"/><circle cx="1410" cy="455" r="28"/>
+  </g>
+  <g fill="#eef5ff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <text x="110" y="135" font-size="34" letter-spacing="8" opacity=".7">DATA ENGINEERING</text>
+    <text x="105" y="235" font-size="76" font-weight="700">Prague Metro</text>
+    <text x="110" y="305" font-size="32" opacity=".72">orchestration · storage · warehouse · graph · events</text>
+  </g>
+</svg>
