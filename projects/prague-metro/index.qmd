@@ -1,0 +1,54 @@
+---
+title: "Prague Metro Data Platform"
+subtitle: "A multi-source data engineering system built for reliable analytical access."
+description: "A developing case study spanning orchestration, cloud storage, transformation, warehouse modeling, and graph data."
+date: 2026-07-28
+image: featured.svg
+categories: [Data Engineering, Airflow, dbt]
+page-layout: full
+toc: true
+---
+
+::: {.project-hero .reveal}
+<p class="eyebrow">DATA ENGINEERING · TEAM PROJECT</p>
+
+# Prague Metro Data Platform
+
+<p class="project-lede">A developing portfolio case study on a multi-source pipeline using orchestration, cloud storage, transformation, and graph data.</p>
+
+::: {.project-meta}
+<span><strong>Role</strong> [Add your specific ownership and contributions]</span>
+<span><strong>Team</strong> [Add team members and links]</span>
+<span><strong>Status</strong> Case study in progress</span>
+:::
+:::
+
+## The problem
+
+[Describe the analytical or operational problem the platform was designed to solve. Keep this focused on why the system mattered, not only the technologies used.]
+
+## The architecture
+
+![Prague Metro pipeline placeholder.](featured.svg){fig-alt="Abstract placeholder for the Prague Metro data engineering architecture" width="90%"}
+
+The platform brings together multiple source types and processing patterns. The final case study can cover:
+
+- Airflow orchestration and dependency management
+- Object storage and versioned snapshots
+- PostgreSQL staging and warehouse layers
+- dbt transformations and dimensional modeling
+- MongoDB and Neo4j ingestion paths
+- Kafka event snapshots
+- Grafana monitoring and reporting
+
+## My contribution
+
+[Add the parts you personally designed, implemented, debugged, validated, or documented.]
+
+## What I learned
+
+[Add the most important engineering judgment you developed: scheduling, idempotency, sensors, schema drift, testing, monitoring, or team handoffs.]
+
+## Evidence
+
+[Add one architecture diagram, one screenshot, and one concise outcome when the project is ready for public presentation.]
